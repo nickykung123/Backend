@@ -15,6 +15,7 @@ export default function LoginPage() {
     }, [state])
 
     return (
+        <div className='flex flex-col items-center w-full h-screen bg-gradient-to-b from-purple-50 to-purple-100'>
         <div className="p-6 flex flex-col items-center justify-center space-y-4 bg-gray-100 rounded-lg shadow-md w-80 mx-auto mt-10">
             <form action={formAction} className="">
                 <div className="flex flex-row mb-4">
@@ -40,6 +41,7 @@ export default function LoginPage() {
                     </button>
                 </div>
             </form>
+        </div>
         </div>
     )
 }

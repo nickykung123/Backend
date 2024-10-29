@@ -30,9 +30,10 @@ export default function FridayPage() {
     }
 
     return (
+        <div className="flex flex-col items-center w-full h-screen bg-gradient-to-b from-purple-50 to-purple-100">
         <form onSubmit={handleSubmit} className="p-6 flex flex-col items-center justify-center space-y-4 bg-gray-100 rounded-lg shadow-md w-80 mx-auto mt-10">
             <div className="flex flex-col items-center">
-                <label htmlFor="date" className="text-lg font-semibold mb-2">Select Date:</label>
+                <label htmlFor="date" className="text-4xl font-extrabold text-purple-600 mb-6">เลือกวันที่:</label>
                 <input 
                     type="date"
                     id="date"
@@ -53,5 +54,6 @@ export default function FridayPage() {
                 Submit
             </button>
         </form>
+        </div>
     )
 }
