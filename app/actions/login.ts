@@ -10,10 +10,10 @@ export async function login(prevState: any, formData: FormData) {
 
     }
 
-    console.log(rawFormData, rawFormData.username == 'admin' && rawFormData.password == 'admin')
+    console.log(rawFormData, rawFormData.username == 'nickykung123' && rawFormData.password == '123456789')
 
     //Call database
-    if (rawFormData.username == 'admin' && rawFormData.password == 'admin'){
+    if (rawFormData.username == 'nickykung123' && rawFormData.password == '123456789'){
         console.log('test')
         redirect('/')
     } else {
