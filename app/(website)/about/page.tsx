@@ -7,16 +7,19 @@ const MyProfile = () => {
                 
                 <div className="text-lg leading-relaxed space-y-4">
                     <p>
+                        <strong>รหัสนิสิต</strong> 66026000
+                    </p>
+                    <p>
                         <strong>ชื่อ:</strong> กิตติศักดิ์ วงศ์ราจา
                     </p>
                     <p>
                         <strong>อายุ:</strong> 20 ปี
                     </p>
                     <p>
-                        <strong>คณะ:</strong> ICT
+                        <strong>คณะ:</strong> เทคโนโลยีสารสนเทศและการสื่อสาร
                     </p>
                     <p>
-                        <strong>สาขา:</strong> SE
+                        <strong>สาขา:</strong> หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมซอฟต์แวร์
                     </p>
                     <p>
                         <strong>อีเมล:</strong> 66026000@up.ac.th
